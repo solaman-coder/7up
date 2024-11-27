@@ -1,0 +1,204 @@
+/* @font-face {
+    font-family:'D-DIN-Bold' ;
+    src: url('font/D-DIN-Bold.otf');
+  } */
+ html, body {
+        margin: 0;
+        padding: 0;
+        /* bottom: 0; */
+        font: 400 20px / 1.2 "Nobel", Helvetica, Arial, sans-serif;
+        color: #818182;
+    }
+.head-container {
+    position: fixed;
+    height: 118px;
+    width: 100%;
+    background-color: #ef9c83;
+    display: flex;
+    flex-direction: row;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    z-index: 5; 
+}
+.head-left { 
+    flex: 1;
+    height: 80px;
+}
+.logo-pic {
+    width: 85px;
+    height: auto;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    cursor: pointer;
+    background-color: transparent;
+}.head-right {
+    flex: 1;
+    position: relative;
+}
+.links {
+    
+    padding: 0px 126px;
+    margin-top: 46px;
+}
+    
+ 
+ .link-a { 
+  
+    padding: 17px 10px;
+    color: #fff;
+    font-family: "Korolev";
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+}.icon-section { 
+   
+    margin-top:-34px;
+    margin-left:510px;
+    margin-bottom:4px;
+}
+    
+.icons {
+    max-width: 29px;
+    padding-top: 8px;
+    padding-right: 1px;
+    cursor: pointer;
+    
+}.banner-wrapper1 {
+    margin-top: 0px;
+    position: relative;
+}#banner-desktop {
+    width: 100%;
+}.text-banner1 {
+    position: absolute;
+    top: 33%;
+    left: 9%;
+    color: white;
+}.text-banner-h1{
+    text-transform: uppercase;
+    font-family: 'korolev-rounded';
+    font-size: 5.5vw;
+    font-weight: 800;
+    line-height: 74px;
+    margin-bottom: 32px;
+}.button-banner1 {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 29px;
+    font-size: 0.9rem;
+    font-family: 'korolev';
+    color: #ffff;
+    text-decoration: none;
+} #banner-desktop2 {
+    margin-top: -4px;
+    width: 100%;
+    position: relative;
+}.text-banner2 {
+    position: absolute;
+    top: 140%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}.recipes-text-data {
+    width: 45%;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+}.text-banner-h2 {
+    text-transform: uppercase;
+    font-family: 'korolev';
+}.text-p {
+    margin-bottom: 20px;
+    font-family: 'korolev';
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: 6px 25px;
+}
+p {
+    margin: 0 0 10px;
+}.button-banner2 {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 15px;
+    color: white;
+    font-size: 19px;
+    font-family: 'korolev';
+    text-decoration: none;
+}#banner-desktop3 {
+    margin-top: -5px;
+    width: 100%;
+    position: relative;
+}.text-banner3 {
+    position: absolute;
+    top: 240%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}.recipes-text-data {
+    width: 45%;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+}.text-banner-h3 {
+    text-transform: uppercase;
+    font-family: 'korolev';
+}.text-p {
+    margin-bottom: 20px;
+    font-family: 'korolev';
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: 6px 25px;
+}
+p {
+    margin: 0 0 10px;
+}.button-banner3 {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 15px;
+    color: white;
+    font-size: 19px;
+    font-family: 'korolev';
+    text-decoration: none;
+} #footer {
+    background-size: cover;
+}
+.navbar, .recipe-detail, #footer {
+    transition: all .3s ease-out;
+}
+#footer {
+    position: relative;
+    margin-top: -5px;
+    background: #3e3e3e;
+    font-family: 'korolev';
+    padding: 0 15px 48px;
+    font-size: 12px;
+}#footer .box { 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 1068px;
+    text-align: center;
+}#footer nav ul {
+    margin: 0 0 12px;
+    padding: 0;
+}#footer nav li {
+    padding: 0 13px;
+}nav li {
+    display: inline;
+    
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
